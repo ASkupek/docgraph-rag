@@ -1,0 +1,17 @@
+# Source documents are not redistributed; see data/README.md
+data/
+!data/.gitkeep
+!data/README.md
+
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.env
+
+# Local service data
+.docker-data/
+scratch/
+Converted_text*
